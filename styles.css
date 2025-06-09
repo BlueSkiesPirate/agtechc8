@@ -1,0 +1,133 @@
+
+:root{
+    --background-color:rgb(39, 39, 77);
+}
+
+
+body{
+    margin:0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+
+}
+#nav_item:hover{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.bacground1{
+    /* background-image: url("https://hydroponicway.com/wp-content/uploads/2022/05/NFT-hydroponics-2.jpg"); */
+    width: full;
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-color: var(--background-color);
+}
+.navbar_container{
+    height:100px;
+    width:full;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_nav{
+    background-color: black;
+    color:white;
+    width:300px;
+    height:40px;
+    border:1px solid black;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#nav_item{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.title_container{
+    width: full;
+    height:20rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title{
+   font-family:"Edu NSW ACT Cursive", cursive ; 
+     font-size: 5rem;
+}
+
+.my_image{
+    width:500px;
+    height:100vh;
+    margin-top: 150px;
+    background-image: url("./images/myPhoto.jpg");
+    background-size: cover;
+    margin-right:20px;
+}
+
+.description_text{
+    color:white;
+    font-size: 2rem;
+    margin-right: 550px;
+    margin-left: 20px;
+}
+
+
+.background2{
+    width:full;
+    height:100vh;
+    background-color: var(--background-color);
+    
+        display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech_list{
+width:75%;
+height:75%;
+padding-left: 100px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+row-gap: 50px;
+}
+
+#tech_list_item{
+    color:black;
+    font-weight: 600;
+    width:170px;
+    height:200px;
+    border:solid black;
+    background-color: rgb(205, 255, 238);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tech_list_item > img{
+    width: 150px;
+    height:150px;
+}
+
+.footer{
+    width: full;
+    height:50vh;
+    background-color: black;
+    color:white;
+padding: 30px;
+}

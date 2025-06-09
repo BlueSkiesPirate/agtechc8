@@ -1,0 +1,101 @@
+body{
+    margin:0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.bacground1{
+    background-image: url("https://hydroponicway.com/wp-content/uploads/2022/05/NFT-hydroponics-2.jpg");
+    width: full;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.navbar_container{
+    height:100px;
+    width:full;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_nav{
+    background-color: black;
+    color:white;
+    width:300px;
+    height:40px;
+    border:1px solid black;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#nav_item{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.title_container{
+    width: full;
+    height:20rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 50px;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+   font-family:"Edu NSW ACT Cursive", cursive ; 
+     font-size: 5rem;
+}
+
+.bacground2{
+    width:full;
+    height:100vh;
+    background-color: green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back2_container_wrapper{
+    width:75%;
+    height:75%;
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_container{
+    width:35%;
+    height:100%;
+    border: 1px black;
+    border-radius: 10px;
+    background-color: yellow;
+    
+}
+.right_container{
+    width:55%;
+    height:100%;
+    border: 1px black;
+    border-radius: 10px;
+    background-color: yellow;
+    padding:10px 0px 10px 0px;
+
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_slider{
+    border-radius: 10px;
+    width:90%;
+    height:90%;
+    background-image: url("https://i.pinimg.com/originals/24/42/16/2442167aef99fd73dc3be73732c168ea.jpg");
+}
