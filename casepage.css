@@ -43,6 +43,8 @@ body::-webkit-scrollbar{
     margin-top: 50px;
   
     display:flex;
+
+     flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -50,6 +52,7 @@ body::-webkit-scrollbar{
 .title{
    font-family:"Edu NSW ACT Cursive", cursive ; 
      font-size: 5rem;
+   
 }
 
 .bacground2{
@@ -78,6 +81,7 @@ body::-webkit-scrollbar{
     border: 1px black;
     border-radius: 10px;
     background-color: yellow;
+    padding:10px;
     
 }
 .right_container{

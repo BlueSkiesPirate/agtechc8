@@ -17,6 +17,9 @@ a{
     color:aliceblue;
 
 }
+
+
+
 #nav_item:hover{
     font-size: 1.5rem;
     cursor: pointer;
@@ -76,6 +79,7 @@ a{
     background-image: url("./images/myPhoto.jpg");
     background-size: cover;
     margin-right:20px;
+ 
 }
 
 .description_text{
@@ -131,3 +135,38 @@ row-gap: 50px;
     color:white;
 padding: 30px;
 }
+
+
+/* 
+@media screen and (min-width:576px){
+.bacground1{
+    background-color: red;
+}
+}
+
+
+@media screen and (min-width:768px){
+    .bacground1{
+    background-color: green;
+}
+}
+
+
+@media screen and (min-width:992px){
+    .bacground1{
+    background-color: yellow;
+}
+}
+
+
+@media screen and (min-width:1200px){
+    .bacground1{
+    background-color: blue;
+}
+}
+
+@media screen and (min-width:1400px){
+    .bacground1{
+    background-color: white;
+}
+} */
