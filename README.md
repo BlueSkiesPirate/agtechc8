@@ -2,7 +2,7 @@
 
 ## Descripttion
 
-A very detailed description
+I worked on the homepage and added the about page as a placeholder
 
 ## Live Demo Link
 
