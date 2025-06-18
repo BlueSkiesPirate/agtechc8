@@ -75,7 +75,8 @@ a{
 .my_image{
     width:500px;
     height:100vh;
-    margin-top: 150px;
+    /* margin-top: 150px; */
+
     background-image: url("./images/myPhoto.jpg");
     background-size: cover;
     margin-right:20px;
@@ -133,11 +134,11 @@ row-gap: 50px;
     height:50vh;
     background-color: black;
     color:white;
-padding: 30px;
+    padding: 30px;
 }
 
 
-/* 
+
 @media screen and (min-width:576px){
 .bacground1{
     background-color: red;
@@ -149,6 +150,26 @@ padding: 30px;
     .bacground1{
     background-color: green;
 }
+   .navbar_container{
+        justify-self: start;
+        margin-left: 20px;
+    }
+    .title{
+        font-size: 3.5rem;
+        margin-left: 10px;
+    }
+    .description_text{
+        font-size: 1.4rem;
+        width: 60%;
+    }
+    .my_image{
+        margin-top: 90px;
+        height:50vh;
+        width:250px;
+    }
+    .title_container{
+        height:15rem;
+    }
 }
 
 
@@ -156,6 +177,22 @@ padding: 30px;
     .bacground1{
     background-color: yellow;
 }
+
+    .navbar_container{
+        justify-self: start;
+        margin-left: 20px;
+    }
+    .title{
+        font-size: 3.5rem;
+        margin-left: 10px;
+    }
+    .description_text{
+        font-size: 1.4rem;
+        display: block;
+    }
+    .my_image{
+        margin-top: 90px;
+    }
 }
 
 
@@ -163,10 +200,24 @@ padding: 30px;
     .bacground1{
     background-color: blue;
 }
+    .navbar_container{
+        justify-self: start;
+        margin-left: 20px;
+    }
+    .title{
+        font-size: 3.5rem;
+        margin-left: 10px;
+    }
+    .description_text{
+        font-size: 1.5rem;
+    }
+    .my_image{
+        margin-top: 90px;
+    }
 }
 
 @media screen and (min-width:1400px){
     .bacground1{
     background-color: white;
 }
-} */
+}
