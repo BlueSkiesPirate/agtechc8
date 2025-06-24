@@ -21,7 +21,7 @@ a{
 
 
 #nav_item:hover{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .bacground1{
@@ -42,7 +42,7 @@ a{
 .top_nav{
     background-color: black;
     color:white;
-    width:300px;
+    width:400px;
     height:40px;
     border:1px solid black;
     border-radius: 10px;

@@ -23,7 +23,7 @@ body::-webkit-scrollbar{
 .top_nav{
     background-color: black;
     color:white;
-    width:300px;
+    width:400px;
     height:40px;
     border:1px solid black;
     border-radius: 10px;
@@ -33,9 +33,14 @@ body::-webkit-scrollbar{
 
 }
 #nav_item{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 400;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .title_container{
     width: full;
     height:20rem;
@@ -82,6 +87,7 @@ body::-webkit-scrollbar{
     border-radius: 10px;
     background-color: yellow;
     padding:10px;
+    overflow-y: scroll;
     
 }
 .right_container{
@@ -95,6 +101,7 @@ body::-webkit-scrollbar{
        display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .image_slider{
@@ -102,4 +109,25 @@ body::-webkit-scrollbar{
     width:90%;
     height:90%;
     background-image: url("https://i.pinimg.com/originals/24/42/16/2442167aef99fd73dc3be73732c168ea.jpg");
+}
+
+@media screen and (max-width:790px) {
+    .back2_container_wrapper{
+        flex-direction: column;
+        gap:10px
+    }
+    .left_container{
+        width:80%;
+    }
+    .right_container{
+        width: 80%;
+        background-size: auto;
+    }
+    .title{
+        font-size: 4rem;
+    }
+    .title_container{
+    justify-content: space-around;
+    height: 24rem;
+    }
 }
