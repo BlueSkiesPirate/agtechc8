@@ -1,3 +1,8 @@
+const submitButton = document.querySelector("#submitButton");
+submitButton.addEventListener("onClick", (e) => {
+  console.log("hello");
+});
+
 // function introduction(name, major) {
 //   console.log(
 //     "Hello there, \n" +
@@ -38,22 +43,64 @@ let array = [
   "fruit",
 ];
 
-console.log(array.length);
-console.log(array[3]);
-console.log(array.indexOf("ninja"));
+// console.log(array.length);
+// console.log(array[3]);
+// console.log(array.indexOf("ninja"));
 
-function determineStatus(grade) {
-  if (grade >= 90) {
-    return "Great work";
-  }
-  if (grade >= 80) {
-    return "Good work";
-  }
-  if (grade > 68) {
-    return "You passed! Do better";
+// function determineStatus(grade) {
+//   if (grade >= 90) {
+//     return "Great work";
+//   }
+//   if (grade >= 80) {
+//     return "Good work";
+//   }
+//   if (grade > 68) {
+//     return "You passed! Do better";
+//   } else {
+//     return "womp womp";
+//   }
+// }
+
+// console.log(determineStatus(80));
+
+// let arr = [
+//   "lion",
+//   "elephant",
+//   "tiger",
+//   "giraffe",
+//   "zebra",
+//   "monkey",
+//   "bison",
+//   "bear",
+// ];
+
+// for (i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// console.log("\n\n");
+
+// for (i = 1; i < arr.length; i += 2) {
+//   console.log(arr[i]);
+// }
+
+arr2 = ["one", "two", "three", "four", "five"];
+
+for (i = 0; i < arr2.length; i++) {
+  let ans = arr2[i].toUpperCase();
+  console.log(ans);
+}
+
+console.log("\n\n");
+
+for (i = 0; i < arr2.length; i++) {
+  if (i + 1 < arr2.length) {
+    console.log(arr2[i] + arr2[i + 1]);
   } else {
-    return "womp womp";
+    console.log(arr2[i] + arr2[0]);
   }
 }
 
-console.log(determineStatus(80));
+// ("Base Url");
+// ("endpoint");
+// ("parameters");
