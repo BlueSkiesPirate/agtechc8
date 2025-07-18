@@ -1,0 +1,132 @@
+
+/* Mobile devices (320px to 480px) */
+@media only screen and (max-width: 480px) {
+/* Styles for mobile devices */
+#scrollable-background{
+background-color: white;
+}
+#landing-text-container{
+    margin-left: 20px;
+    width: full;
+    font-size: medium;
+}
+#progress-bar{
+    margin-left: -64px;
+}
+#image-textContainer-container{
+    flex-direction: column;
+    align-items: end;
+}
+#qualityWords-textContainer-container{
+    width: 100%;
+    margin-top: 50px;
+}
+#myImage-container{
+    display: flex;
+    justify-self: center;
+
+}
+#traitsContainer{
+    position: absolute;
+    bottom: 10px;
+    display: none;
+}
+.navBarItem{
+    font-size: medium;
+}
+#navBar{
+    padding-top: 20px;
+    width: 90%;
+    padding-left: 0;
+    margin-left: auto;
+}
+}
+
+/* Tablets (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+/* Styles for tablets */
+#scrollable-background{
+background-color: blue;
+}
+#landing-text-container{
+    margin-left: 20px;
+    width: full;
+    font-size: larger;
+}
+#progress-bar{
+    margin-left: -64px;
+}
+#image-textContainer-container{
+    flex-direction: column;
+    align-items: end;
+}
+#qualityWords-textContainer-container{
+    width: 100%;
+    margin-top: 50px;
+}
+#myImage-container{
+    display: flex;
+    justify-self: center;
+}
+#traitsContainer{
+    position: absolute;
+    bottom: 10px;
+    display: none;
+}
+.navBarItem{
+    font-size: large;
+}
+#navBar{
+    padding-top: 20px;
+    width: 90%;
+    padding-left: 0;
+    margin-left: auto;
+}
+#tipContainer{
+   font-size: small;
+   height: 60px;
+}
+
+#techBox-background{
+    height: 40px;
+}
+#techBox{
+    height: 38px;
+}
+}
+
+/* Laptops and small desktops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+/* Styles for laptops and small desktops */
+#scrollable-background{
+background-color: green;
+}
+#landing-text-container{
+    margin-left: 20px;
+}
+#progress-bar{
+    margin-left: -64px;
+}
+#myImage{
+    object-fit: contain;
+    height: auto;
+    width: auto;
+    
+}
+}
+
+/* Desktops (1025px to 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+/* Styles for desktops */
+#scrollable-background{
+background-color: red;
+}
+}
+
+/* Large desktops and TVs (1201px and above) */
+@media only screen and (min-width: 1201px) {
+/* Styles for large desktops and TVs */
+#scrollable-background{
+background-color: peru;
+}
+}

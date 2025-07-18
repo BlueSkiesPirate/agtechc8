@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal page</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+   <div class="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+
+
+
+ <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 1-->
+
+        <div class="borderColor w-32 flex flex-col items-end pt-10 fixed" ><!--PROGRESS BAR CONTAINER-->
+
+            <div class="borderColor w-full h-10 -mr-16 border-l-2  flex items-end pl-5 relative">
+                <div class="border-1 secondaryBackgroundColor borderColor w-6 h-4 rounded-full -inset-x-3 inset-y-8 absolute"></div>
+                <h2 class="-mb-3 sticky mainTextFont">Snippet Saver</h2>
+            </div>
+
+          
+            <div class="borderColor w-full h-10 -mr-16 border-l-2 border-dashed  flex items-end pl-5"></div>
+        </div>
+
+        
+
+
+        <div class="w-full ">
+
+           <div class="h-1/10 pl-50 pt-10 flex space-x-7 "><!--NAVBAR-->
+                <h2 class="mainTextFont text-2xl"><a href="./index.html">Home</a></h2>
+                <h2 class="mainTextFont text-2xl"><a  href="./plantidentifier.html">Plant Identifier</a></h2>
+                <h2 class="mainTextFont text-2xl"><a href="./caseStudies.html">Case Studies</a></h2>
+           </div>
+
+       
+
+            <div class="flex justify-end items-end w-full h-9/10">
+                <div class="w-350  h-150 mb-10 mr-10 flex "><!--MAIN SECTION-->
+                   <div class="w-1/2 flex flex-col justify-center items-center h-full pl-5 ">
+                      <img src="./images/saver.webp" class="-mr-24 rounded-lg w-3/4">
+                   </div> 
+                <div class="flex flex-col justify-start w-1/2 border-r-1 border-b-1 border-dashed borderColor pt-10">
+                    <div class="bg-red-500 h-32 self-end secondaryBackgroundColor rounded-l-lg w-full">
+                        <h1 class="text-5xl text-white">Snippet Saver</h1>
+                   </div>
+                   <div class="flex self-end pr-5 ">
+                        <h2 class="mr-5">Jan 2025 -present</h2>
+                        <h2>Author: Sebastian Reyna</h2>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+        
+    </div><!--SECTION ONE END-->
+
+
+     <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 2-->
+        <div class="w-full flex justify-center items-center">
+            <div class="flex h-2/3 w-2/3  flex-col">
+                <!--TABLE OF CONTENTS-->
+                <h1 class="text-5xl self-center mt-10 text-[#8E518D]">Table of contents</h1>
+                <div class="flex justify-center items-center h-full">
+                    <div class="mt-5   space-y-5 grid grid-flow-col grid-rows-4 w-full" id="table-of-contents">
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div><!--SECTION END-->
+
+    
+     <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 3-->
+        <div class="w-full flex justify-center items-center">
+            <div class="flex h-2/3 w-2/3  flex-col">
+                <h1 class="text-5xl">Project Overview</h1>
+                <div class="mt-5 ml-5 flex  ">
+                    <div class="w-4  h-10 bg-[#8E518D] mr-4"></div>
+                    <div class="w-9/10">
+                            <p>
+                                <div>
+                                    When coding a website many of us have had that moment in which we have wished we had some sort of storage for those complex functions
+                                    we create that can be replicated from site to site. Let's say you created a search bar for a previous project, and now one of your newer projects also uses a search bar,
+                                    wouldn't it be better to get exactly the code you already wrote and tweak it only slightly for this new code?
+                                </div>
+                                <br>
+                                <div>
+                                    With Snippet saver you are able to just that, this MongoDb powered database allows users to store multiple separated pieces of code under a single snippet for those 
+                                    functions that require multiple files to work. Users can also add descriptions and tags to find the snippets better. On the top there is a search bar that users can 
+                                    take advantage off to filter the snippets by the tags they previously created, or by the titles of the snippets.
+                                </div>
+                                <br>
+                                  <div>
+                                    To the left of the screen there is also a section that allows users to add hyperlinks to their most used websites when coding. Let's say you found an Icon library 
+                                    to use on your react native project, this is coding specific, so it will be better to to add it to the dashboard rather than having it clutter your saved pages screen.
+                                </div>
+                      
+                    </p>
+                   
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+        </div>
+    </div><!--SECTION END-->
+
+    
+     <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 4-->
+        <div class="w-full flex justify-center items-center">
+            <div class="flex h-2/3 w-2/3  flex-col">
+                <h1 class="text-5xl">Design</h1>
+                <div class="mt-5 ml-5 flex flex-col">
+                    <div class="flex">
+                        <div class="w-4 h-10 bg-[#8E518D] mr-4"></div>
+                    <div class="w-9/10">
+                        When designing this app the inspiration was a control panel, which means that the user has all of the important features in the main page, so that people can conviniently
+                        access these features and can work more effectively.
+                    </div>
+                    </div>
+                    
+                    <br>
+                    <div class="space-x-7 flex">
+<div class="flex flex-col items-center">
+                        <img src="./images/snippetSaver-landing.png" class="h-2/3">
+                        <h1>Landing</h1>
+                    </div>
+                     
+                    </div>
+                    
+                    
+                    
+                   
+                </div>
+            </div>
+
+           
+        </div>
+    </div><!--SECTION END-->
+
+    
+    
+
+    
+     <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 6-->
+        <div class="w-full flex justify-center items-center">
+         
+
+             <div class="flex h-2/3 w-2/3  flex-col">
+                <h1 class="text-5xl">conflict analysis</h1>
+                <div class="mt-5 ml-5 flex">
+                    <div class="w-4 h-10 bg-[#8E518D] mr-4"></div>
+                    <div class="w-9/10 flex flex-col">
+                        <div>
+                            As I was developing the program, I began to notice from my own coding that many of the important functions I was using had multiple parts, many of them on 
+                            different files, like jsx and js. because of this, I felt that having the option for users to allow multiple files was going to avoid confusions, so I added tabs to the code section
+                        </div>
+                  <br>
+                    <div>
+                        <img src="./images/code-files.png">
+                    </div>
+                    <br>
+                    <div>
+                        While the CRUD operation of the websites are complete, I have decided to add login functionalities to the site so that other users can create their own data. 
+                        I am still developing the authentication system, by using Prisma as the toolkit to simplify the workflows, howerver support for MongoDB isn't too great with 
+                        Prisma even though they are listed as working.
+                    </div>
+                      
+                    </div>
+                   
+                   
+                </div>
+            </div>
+
+           
+        </div>
+    </div><!--SECTION END-->
+
+    
+     <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 7-->
+        <div class="w-full flex justify-center items-center">
+         
+            <div class="flex h-2/3 w-2/3  flex-col">
+                <h1 class="text-5xl">Conclusion</h1>
+                <div class="mt-5 ml-5 flex">
+                    <div class="w-4 h-10 bg-[#8E518D] mr-4"></div>
+                    <div class="w-9/10">
+
+                        <p>
+                            The main features for the site are working save for the authentication system and the search bar. there is a middle line in the page that allows users to resize 
+                            the results and snippet sections so that users can get a better view of what they prefer. The page is only meant for computer's since that's the enviroment in which 
+                            most people code their websites. Overall the project has met my initial goals, and now I am essentially working on ways to take it to the next level.
+                        </p>
+                 
+                    </div>
+                    
+                   
+                </div>
+            </div>
+
+
+           
+        </div>
+    </div><!--SECTION END-->
+
+
+    
+      
+
+
+ 
+</div>
+
+<script src="./snippetSaver.js"></script>
+</body>
+</html>

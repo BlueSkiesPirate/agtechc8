@@ -9,13 +9,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="styles2.css">
+     <link rel="stylesheet" href="homeMedia.css">
 </head>
 <body>
-   <div class="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth" id="scrollable-background">
+   <div class="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth mainBackgroundColor " id="scrollable-background">
 
-       <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 1-->
+       <div class="view flex snap-start h-screen "><!--Section 1-->
 
-        <div class="borderColor w-32 flex flex-col items-end pt-10 fixed" ><!--PROGRESS BAR CONTAINER-->
+        <div class="borderColor w-32 flex flex-col items-end pt-10 fixed" id="progress-bar" ><!--PROGRESS BAR CONTAINER-->
 
             <div class="borderColor w-full h-10 -mr-16 border-l-2  flex items-end pl-5 relative">
                 <div class="border-1 secondaryBackgroundColor borderColor w-6 h-4 rounded-full -inset-x-3 inset-y-8 absolute"></div>
@@ -40,19 +41,18 @@
 
         <div class="w-full ">
 
-           <div class="h-1/10 pl-50 pt-10 flex space-x-7 "><!--NAVBAR-->
-                <h2 class="mainTextFont text-2xl"><a href="">Home</a></h2>
-                <h2 class="mainTextFont text-2xl"><a href="./test.html">Test</a></h2>
-                <h2 class="mainTextFont text-2xl"><a  href="./plantidentifier.html">Plant Identifier</a></h2>
-                <h2 class="mainTextFont text-2xl"><a href="./caseStudies.html">Case Studies</a></h2>
+           <div class="h-1/10 pl-50 pt-10 flex space-x-7 " id="navBar"><!--NAVBAR-->
+                <h2 class="mainTextFont text-2xl navBarItem"><a href="">Home</a></h2>
+                <h2 class="mainTextFont text-2xl navBarItem"><a  href="./plantidentifier.html">Plant Identifier</a></h2>
+                <h2 class="mainTextFont text-2xl navBarItem"><a href="./caseStudies.html">Case Studies</a></h2>
            </div>
 
        
 
-            <div class="flex justify-end items-end w-full h-9/10">
-                <div class="w-350  h-150 mb-10 mr-10 flex"><!--MAIN SECTION-->
-                   <div class="w-1/2 flex flex-col justify-center items-center h-full pl-5 ">
-                        <p class="text-2xl my-auto mainTextFont">“Sed ut perspiciatis unde omnis iste natus error sit 
+            <div class="flex justify-end items-end w-full h-9/10  overflow-hidden">
+                <div class="w-9/10 h-150 mb-10 mr-10 flex  relative " id="image-textContainer-container"><!--MAIN SECTION-->
+                   <div class="w-1/2 flex flex-col justify-center items-center h-full pl-5" id="qualityWords-textContainer-container">
+                        <p class="text-2xl my-auto mainTextFont " id="landing-text-container">“Sed ut perspiciatis unde omnis iste natus error sit 
                         voluptatem accusantium doloremque laudantium, 
                         totam rem aperiam, eaque ipsa quae ab illo inventore
                         veritatis et quasi architecto beatae vitae dicta sunt
@@ -66,15 +66,15 @@
   
                         </div>
                    </div> 
-                   <div class="flex justify-end w-1/2 border-r-1 border-b-1 border-dashed borderColor">
-                    <img src="./images/mypicture_cropped.png" class="">
+                   <div class="flex justify-end w-1/2 border-r-1 border-b-1 border-dashed borderColor" id="myImage-container">
+                    <img src="./images/mypicture_cropped.png" class="self-end" id="myImage">
                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-     <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 2-->
+     <div class="view flex snap-start h-screen "><!--Section 2-->
 
        
         
@@ -86,26 +86,20 @@
            </div>
 
             <div class="flex justify-end items-end w-full h-9/10">
-                <div class="w-350  h-150 mb-10 mr-10 flex"><!--MAIN SECTION-->
-                   <div class="displayScrollBar thirciaryBackgroundColor w-1/2 flex flex-col justify-center items-center h-full pl-5 bg-black relative overflow-x-scroll rounded-lg inset-shadow-[0_35px_35px_rgba(215,192,208,0.7)]">
+                <div class="w-9/10 h-150 mb-10 mr-10 flex justify-end"><!--MAIN SECTION-->
+                   <!-- <div class="displayScrollBar thirciaryBackgroundColor w-1/2 flex flex-col justify-center items-center h-full pl-5 bg-black relative overflow-x-scroll rounded-lg inset-shadow-[0_35px_35px_rgba(215,192,208,0.7)]"> -->
                 <!--LEFT SIDE-->
-                   
+<!--                    
                     <img src="./images/image 7.png" class="absolute h-50">
                     <img src="./images/react.png" class="absolute h-45">
 
                     <img src="./images/react.png" class="absolute h-45 left-150">
-            
-
-
-
-
-
 
                    </div> 
-                   <div class="flex flex-col w-1/2 border-r-1 border-b-1 border-dashed borderColor">
+                   <div class="flex flex-col w-1/3 border-r-1 border-b-1 border-dashed borderColor"> -->
                     <!--RIGHT SIDE-->
-                    <div class="h-1/6">
-                        <div class="justify-self-end text-white h-10 secondaryBackgroundColor flex items-center rounded-l-xl pl-5 pr-5">TIP: CLICK ON THE BOXES</div>
+                    <!-- <div class="h-1/6">
+                        <div class="justify-self-end text-white h-10 secondaryBackgroundColor flex items-center rounded-l-xl pl-5 pr-5" id="tipCon">TIP: CLICK ON THE BOXES</div>
                     </div>
                     <div class="h-2/6 pl-5 pr-5">
                         <h2 class="mb-10  text-lg">React</h2>
@@ -118,13 +112,55 @@
               
                     </div>
 
-                   </div>
+                   </div> -->
+
+                   <div class="flex w-9/10">
+            <div id="tech_list_item">
+                <img src="https://innoblooms.com/logo/next-logo.png" class="w-50">
+                NextJs
+            </div>
+            <div id="tech_list_item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" class="w-50">
+
+                Reactjs
+            </div>
+              <div id="tech_list_item">
+                <img src="https://www.educative.io/api/page/5184213461499904/image/download/6096311389519872" class="w-50">
+
+                HTML
+            </div>
+              <div id="tech_list_item">
+                <img src="https://logospng.org/download/css-3/logo-css-3-1024.png" class="w-50">
+
+                CSS
+            </div>
+              <div id="tech_list_item">
+                <img src="https://pluspng.com/img-png/logo-mongodb-png-mongodb-logo-png-400.png" class="w-50">
+
+                MongoDB
+            </div>
+              <div id="tech_list_item">
+                <img src="https://vectorseek.com/wp-content/uploads/2023/07/Figma-Logo-Png-Vector.svg-.png" class="w-50">
+
+                Figma
+            </div>
+              <div id="tech_list_item">
+                <img src="https://pngimg.com/uploads/github/github_PNG80.png" class="w-50">
+
+                Github
+            </div>
+              <div id="tech_list_item">
+                <img src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png" class="w-50">
+
+                React Native
+            </div>
+       </div>
                 </div>
             </div>
         </div>
     </div>
 
-       <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 3-->
+       <div class="view flex snap-start h-screen "><!--Section 3-->
 
        
         
@@ -137,38 +173,11 @@
 
             <div class="flex justify-end items-end w-full h-9/10">
                 <div class="w-350  h-150 mb-10 mr-10 flex"><!--MAIN SECTION-->
-                   <div class="displayScrollBar thirciaryBackgroundColor w-1/2 flex flex-col justify-center items-center h-full pl-5 bg-black relative overflow-x-scroll rounded-lg inset-shadow-[0_35px_35px_rgba(215,192,208,0.7)]">
-                <!--LEFT SIDE-->
-                   
-                    <img src="./images/image 7.png" class="absolute h-50">
-                    <img src="./images/react.png" class="absolute h-45">
-
-                    <img src="./images/react.png" class="absolute h-45 left-150">
-            
-
-
-
-
-
-
-                   </div> 
-                   <div class="flex flex-col w-1/2 border-r-1 border-b-1 border-dashed borderColor">
-                    <!--RIGHT SIDE-->
-                    <div class="h-1/6">
-                        <div class="justify-self-end text-white h-10 secondaryBackgroundColor flex items-center rounded-l-xl pl-5 pr-5">TIP: CLICK ON THE BOXES</div>
+                    A little more about me:
+                    <div>
+                        I love 
                     </div>
-                    <div class="h-2/6 pl-5 pr-5">
-                        <h2 class="mb-10  text-lg">React</h2>
-                        <p>One of my favorite technologies, have used it on projects such as the following: </p>
-                    </div>
-                    <div class="h-3/6 pl-10 pr-10 overflow-y-scroll space-y-5">
-                        <div class="text-white secondaryBackgroundColor h-12 rounded-xl flex justify-center items-center">Project 1</div>
-                        <div class="text-white secondaryBackgroundColor h-12 rounded-xl flex justify-center items-center">Project 1</div>
-                        <div class="text-white secondaryBackgroundColor h-12 rounded-xl flex justify-center items-center">Project 1</div>
               
-                    </div>
-
-                   </div>
                 </div>
             </div>
         </div>
@@ -177,7 +186,7 @@
 
 
 
-    <div class="view flex snap-start h-screen mainBackgroundColor"><!--Section 3-->
+    <div class="view flex snap-start h-screen "><!--Section 4-->
 
        
         
@@ -190,7 +199,7 @@
 
             <div class="flex justify-end items-end w-full h-9/10">
                 <div class="w-2/3 h-full flex flex-col mr-48 ">
-                    <div class="h-1/3 flex justify-around w-full items-start text-2xl"><!--TOP DIV-->
+                    <div class="h-1/3 flex justify-around w-full items-start text-2xl mt-32"><!--TOP DIV-->
                         <div class="flex flex-col justify-around items-center">
                             <h1>Socials</h1>
                             <h1>Instagram</h1>
@@ -204,8 +213,8 @@
                         </div>
                         <div  class="flex flex-col justify-around items-center">
                             <h1>other pages</h1>
-                            <h1>Case Studies</h1>
-                            <h1>Plant Identifier</h1>
+                           <a href="caseStudies.html"><h1>Case Studies</h1></a> 
+                            <a href="./plantidentifier.html"><h1>Plant Identifier</h1></a>
                         </div>
                         
                     </div>
