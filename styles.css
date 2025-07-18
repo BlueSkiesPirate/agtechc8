@@ -149,16 +149,16 @@ grid-template-columns: auto auto;
 
 
 @media screen and (min-width:576px){
-.bacground1{
+/* .bacground1{
     background-color: red;
-}
+} */
 }
 
 
 @media screen and (min-width:768px){
-    .bacground1{
+    /* .bacground1{
     background-color: green;
-}
+} */
    .navbar_container{
         justify-self: start;
         margin-left: 20px;
@@ -183,9 +183,9 @@ grid-template-columns: auto auto;
 
 
 @media screen and (min-width:992px){
-    .bacground1{
+    /* .bacground1{
     background-color: yellow;
-}
+} */
 
     .navbar_container{
         justify-self: start;
@@ -206,9 +206,9 @@ grid-template-columns: auto auto;
 
 
 @media screen and (min-width:1200px){
-    .bacground1{
+    /* .bacground1{
     background-color: blue;
-}
+} */
     .navbar_container{
         justify-self: start;
         margin-left: 20px;
@@ -226,9 +226,9 @@ grid-template-columns: auto auto;
 }
 
 @media screen and (min-width:1400px){
-    .bacground1{
+    /* .bacground1{
     background-color: white;
-}
+} */
 }
 
 

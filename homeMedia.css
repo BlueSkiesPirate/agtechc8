@@ -2,9 +2,9 @@
 /* Mobile devices (320px to 480px) */
 @media only screen and (max-width: 480px) {
 /* Styles for mobile devices */
-#scrollable-background{
+/* #scrollable-background{
 background-color: white;
-}
+} */
 #landing-text-container{
     margin-left: 20px;
     width: full;
@@ -45,9 +45,9 @@ background-color: white;
 /* Tablets (481px to 768px) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 /* Styles for tablets */
-#scrollable-background{
+/* #scrollable-background{
 background-color: blue;
-}
+} */
 #landing-text-container{
     margin-left: 20px;
     width: full;
@@ -98,9 +98,9 @@ background-color: blue;
 /* Laptops and small desktops (769px to 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 /* Styles for laptops and small desktops */
-#scrollable-background{
+/* #scrollable-background{
 background-color: green;
-}
+} */
 #landing-text-container{
     margin-left: 20px;
 }
@@ -118,15 +118,15 @@ background-color: green;
 /* Desktops (1025px to 1200px) */
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
 /* Styles for desktops */
-#scrollable-background{
+/* #scrollable-background{
 background-color: red;
-}
+} */
 }
 
 /* Large desktops and TVs (1201px and above) */
 @media only screen and (min-width: 1201px) {
 /* Styles for large desktops and TVs */
-#scrollable-background{
+/* #scrollable-background{
 background-color: peru;
-}
+} */
 }
